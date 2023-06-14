@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   const [count, setCount] = useState(0);
@@ -10,11 +11,14 @@ export default function Home() {
       <p>You clicked {count} times</p>
       <button
         onClick={() => {
-          setCount(count + 1);
+          setCount((prev) => prev + 1);
         }}
       >
         Click me
       </button>
+      <Link href="/user">Go to user</Link>
+      <Link href="/posts">Go to posts</Link>
+      <Link href="/cats_in_garden_with_flowers">Cats in garden</Link>
     </main>
   );
 }
