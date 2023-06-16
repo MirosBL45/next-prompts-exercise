@@ -8,13 +8,13 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>You clicked {count} times</p>
+      <p>You clicked down {count} times</p>
       <button
         onClick={() => {
           setCount((prev) => prev + 1);
         }}
       >
-        Click me
+        Click on me to see counting
       </button>
       <Link href="/user">Go to user</Link>
       <Link href="/posts">Go to posts</Link>
