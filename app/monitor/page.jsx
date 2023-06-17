@@ -3,7 +3,7 @@ import Link from 'next/link';
 function page() {
   return (
     <div>
-      <p>Hello User page</p>
+      <p>Hello monitor</p>
       <br />
       <Link href={`/`}>GO HOME</Link>
     </div>
