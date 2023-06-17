@@ -18,6 +18,7 @@ export default function Home() {
       </button>
       <Link href="/user">Go to user</Link>
       <Link href="/posts">Go to posts</Link>
+      <Link href="/glasses">Go to glasses</Link>
       <Link href="/cats_in_garden_with_flowers">Cats in garden</Link>
     </main>
   );
