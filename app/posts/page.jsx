@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Layout from './layout';
 
 function page() {
   return (
@@ -8,6 +9,7 @@ function page() {
       <Link href={`/`}>GO HOME</Link>
       <br />
       <Link href={`/posts/new`}>GO to new post</Link>
+      <Layout />
     </div>
   );
 }
